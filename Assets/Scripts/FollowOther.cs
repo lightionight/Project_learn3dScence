@@ -6,7 +6,7 @@ public class FollowOther : MonoBehaviour
     GameObject follower;
     float t;
     float t2;
-    static readonly float speed = 0.1f;
+    static readonly float speed = 0.2f;
     static readonly int pointNum = 5;
     Vector3[] pointList = new Vector3[pointNum];
     int selectPointIndex = 0;
@@ -29,12 +29,11 @@ public class FollowOther : MonoBehaviour
     {
         
             
-        t2 = (1 / (follower.transform.position - pointList[selectPointIndex]).magnitude) * speed;
-        Debug.Log(t2);
-        leader.transform.position = Vector3.Lerp(leader.transform.position, pointList[selectPointIndex], t2);
         if ((leader.transform.position - pointList[selectPointIndex]).magnitude > 1f)
         {
 
+            t2 = (1 / (leader.transform.position - pointList[selectPointIndex]).magnitude) * speed;
+            leader.transform.position = Vector3.Lerp(leader.transform.position, pointList[selectPointIndex], t2);
             selectPointIndex++;
         }
             //Debug.Log($"I'm Moving to the Leader {(follower.transform.position).ToString()}");

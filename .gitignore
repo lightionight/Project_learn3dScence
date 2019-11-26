@@ -338,3 +338,13 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+*.png
+*.tif
+*.info
+/Library/metadata
+/Library/ShaderCache
+/Library/StateCache
+/Library/TerrainTools
+/Temp
+/Assets/Textures
+/Library
