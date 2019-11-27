@@ -6,7 +6,7 @@ public class FollowOther : MonoBehaviour
     GameObject follower;
     float t;
     float t2;
-    static readonly float speed = 0.2f;
+    static readonly float speed = 0.1f;
     static readonly int pointNum = 5;
     Vector3[] pointList = new Vector3[pointNum];
     int selectPointIndex = 0;
@@ -29,22 +29,22 @@ public class FollowOther : MonoBehaviour
     {
         
             
-        if ((leader.transform.position - pointList[selectPointIndex]).magnitude > 1f)
+        t2 = (1 / (leader.transform.position - pointList[selectPointIndex]).magnitude) * speed;
+        leader.transform.position = Vector3.Lerp(leader.transform.position, pointList[selectPointIndex], t2);
+        if ((leader.transform.position - pointList[selectPointIndex]).magnitude < 0.5f)
         {
-
-            t2 = (1 / (leader.transform.position - pointList[selectPointIndex]).magnitude) * speed;
-            leader.transform.position = Vector3.Lerp(leader.transform.position, pointList[selectPointIndex], t2);
             selectPointIndex++;
+
         }
             //Debug.Log($"I'm Moving to the Leader {(follower.transform.position).ToString()}");
-            //if ((follower.transform.position - leader.transform.position).magnitude > 1.5f)
-            //{
-            //    t = (1 / (follower.transform.position - leader.transform.position).magnitude) * speed;
-            //    follower.transform.position = Vector3.Lerp(follower.transform.position, leader.transform.position, t);
-            //}
         if(selectPointIndex == 5)
         {
             selectPointIndex = 0;
+        }
+        if ((follower.transform.position - leader.transform.position).magnitude > 2f)
+        {
+            t = (1 / (follower.transform.position - leader.transform.position).magnitude) * speed;
+            follower.transform.position = Vector3.Lerp(follower.transform.position, leader.transform.position, t);
         }
 
     }
