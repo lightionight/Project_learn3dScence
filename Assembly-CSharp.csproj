@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\EnemyAutoMove.cs" />
     <Compile Include="Assets\Scripts\FollowOther.cs" />
+    <Compile Include="Assets\Scripts\Level_04\AutoFindWay.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerAttribute.cs" />
     <Compile Include="Assets\Scripts\Star.cs" />

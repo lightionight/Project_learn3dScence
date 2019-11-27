@@ -8,6 +8,7 @@ public class Button_ChangeBallMovePoint : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         Button btn = gameObject.GetComponent<Button>();
         btn.onClick.AddListener(OnClick);
     }
@@ -20,5 +21,15 @@ public class Button_ChangeBallMovePoint : MonoBehaviour
     void OnClick()
     {
         Debug.Log("Its Work!");
+        if (GameObject.Find("Main Camera").GetComponent<FollowOther>().selectPointIndex > 3)
+        {
+            GameObject.Find("Main Camera").GetComponent<FollowOther>().selectPointIndex = 0;
+        }
+        else
+        {
+            GameObject.Find("Main Camera").GetComponent<FollowOther>().selectPointIndex++;
+
+        }
+        Debug.Log(GameObject.Find("Main Camera").GetComponent<FollowOther>().selectPointIndex);
     }
 }

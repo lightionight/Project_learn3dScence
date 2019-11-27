@@ -9,7 +9,7 @@ public class FollowOther : MonoBehaviour
     static readonly float speed = 0.1f;
     static readonly int pointNum = 5;
     Vector3[] pointList = new Vector3[pointNum];
-    int selectPointIndex = 0;
+    public int selectPointIndex = 0;
     float moveRange = 15f;
 
     // Use this for initialization
@@ -31,16 +31,16 @@ public class FollowOther : MonoBehaviour
             
         t2 = (1 / (leader.transform.position - pointList[selectPointIndex]).magnitude) * speed;
         leader.transform.position = Vector3.Lerp(leader.transform.position, pointList[selectPointIndex], t2);
-        if ((leader.transform.position - pointList[selectPointIndex]).magnitude < 0.5f)
-        {
-            selectPointIndex++;
+        //if ((leader.transform.position - pointList[selectPointIndex]).magnitude < 0.5f)
+        //{
+        //    selectPointIndex++;
 
-        }
+        //}
             //Debug.Log($"I'm Moving to the Leader {(follower.transform.position).ToString()}");
-        if(selectPointIndex == 5)
-        {
-            selectPointIndex = 0;
-        }
+        //if(selectPointIndex == 5)
+        //{
+        //    selectPointIndex = 0;
+        //}
         if ((follower.transform.position - leader.transform.position).magnitude > 2f)
         {
             t = (1 / (follower.transform.position - leader.transform.position).magnitude) * speed;
@@ -58,10 +58,10 @@ public class FollowOther : MonoBehaviour
         {
             pointList_inside[i].Set(Random.Range(x - moveRange, x + moveRange), y, Random.Range(z - moveRange, z + moveRange)); 
         }
-        foreach (Vector3 item in pointList_inside)
-        {
-            Debug.Log($"This is {item.ToString()}");
-        }
+        //foreach (Vector3 item in pointList_inside)
+        //{
+        //    Debug.Log($"This is {item.ToString()}");
+        //}
         return pointList_inside;
     }
     void OnDrawGizmos()
