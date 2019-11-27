@@ -6,8 +6,8 @@ public class AutoFindWay : MonoBehaviour
     GameObject player;
     //float t;
     //static readonly float speed = 0.1f;
-    static readonly int pointNum = 5;
-    Vector3[] pointList = new Vector3[pointNum];
+    static readonly int pointNum = 10;//生成目标点的个数
+    Vector3[] pointList = new Vector3[pointNum];//生成的目标点数组
     int selectPointIndex = 0;
     float moveRange = 15f;
     private NavMeshAgent nav;
@@ -27,13 +27,13 @@ public class AutoFindWay : MonoBehaviour
         //t = (1 / (player.transform.position - pointList[selectPointIndex]).magnitude) * speed;
         //player.transform.position = Vector3.Lerp(player.transform.position, pointList[selectPointIndex], t);
         nav.SetDestination(pointList[selectPointIndex]);
-        if ((player.transform.position - pointList[selectPointIndex]).magnitude < 0.5f)
+        if ((player.transform.position - pointList[selectPointIndex]).magnitude < 1f)
         {
             selectPointIndex++;
 
         }
         //Debug.Log($"I'm Moving to the player {(follower.transform.position).ToString()}");
-        if (selectPointIndex == 5)
+        if (selectPointIndex == 10)
         {
             selectPointIndex = 0;
         }
