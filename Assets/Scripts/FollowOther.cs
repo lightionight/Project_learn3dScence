@@ -64,4 +64,15 @@ public class FollowOther : MonoBehaviour
         }
         return pointList_inside;
     }
+    void OnDrawGizmos()
+    {
+        foreach (var item in pointList)
+        {
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawWireSphere(item, 1f);
+
+        }
+        // Draw a yellow sphere at the transform's position
+    }
+
 }
