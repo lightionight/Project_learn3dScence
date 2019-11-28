@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4e32ed9c2ee509c4eade2de408254b2e
+guid: b2646db49b3d4f046b3b5c4a1f1320a3
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -45,7 +45,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 4
+  spritePixelsToUnits: 0.05
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,25 +69,38 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites: []
     outline:
-    - - {x: -0.07999992, y: -1.54}
-      - {x: -1.1199999, y: -1.1199999}
-      - {x: -1.66, y: -0.059999943}
-      - {x: -1.24, y: 1.4200001}
-      - {x: -0.3399998, y: 1.3599999}
-      - {x: 1.2599995, y: 1.48}
-      - {x: 1.4799993, y: 0.17999983}
-      - {x: 1.1999993, y: -1.3599999}
+    - - {x: -0.27677, y: 0.31901503}
+      - {x: -0.78, y: 0.5}
+      - {x: -1.4000001, y: 0.21999979}
+      - {x: -0.722113, y: 0.018033981}
+      - {x: -0.6355703, y: -1.6780341}
+      - {x: -0.24809766, y: -0.41203701}
+      - {x: 0.91557074, y: -1.2580339}
+      - {x: 0.19462943, y: -0.18674767}
+      - {x: 1.0221121, y: 0.5980344}
     physicsShape:
-    - - {x: -2, y: -2}
-      - {x: -2, y: 2}
-      - {x: 2, y: 2}
-      - {x: 2, y: -2}
+    - - {x: 0, y: 2}
+      - {x: -1.9021131, y: 0.61803395}
+      - {x: -1.1755704, y: -1.6180341}
+      - {x: 1.1755707, y: -1.6180339}
+      - {x: 1.902113, y: 0.61803424}
     bones: []
-    spriteID: 0adaa5bc2b93f7745b06babc788012c4
+    spriteID: 7a936e70ed49a954397e6d02d74dc46e
     vertices: []
     indices: 
     edges: []
