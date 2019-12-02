@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Base\CharacterControllerBase.cs" />
     <Compile Include="Assets\Scripts\Button\Button_ChangeBallMovePoint.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\EnemyAutoMove.cs" />
@@ -70,7 +71,9 @@
     <Compile Include="Assets\Scripts\Level_04\AutoFindWay.cs" />
     <Compile Include="Assets\Scripts\Level_05\BirdFly.cs" />
     <Compile Include="Assets\Scripts\Level_05\BirdFlyV2.cs" />
+    <Compile Include="Assets\Scripts\Level_05\CharacterMove.cs" />
     <Compile Include="Assets\Scripts\Level_05\ClickMove.cs" />
+    <Compile Include="Assets\Scripts\Level_05\Enemy_SixStar.cs" />
     <Compile Include="Assets\Scripts\Level_05\PannelController.cs" />
     <Compile Include="Assets\Scripts\Level_06\MouseToPosition.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
