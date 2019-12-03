@@ -4,19 +4,26 @@ using System.Collections;
 public class CharacterMove : MonoBehaviour
 {
     public bool isJump = false;
-
     CharacterControllerBase characterControllerBase;
+
     void Start()
     {
-        characterControllerBase = new CharacterControllerBase();   
+        characterControllerBase = gameObject.AddComponent<CharacterControllerBase>();
     }
     void Update()
     {
         if(isJump)
         {
-            Debug.Log(isJump + "aaa");
+            
             characterControllerBase._base2dController(gameObject, isJump);
-            Debug.Log(isJump);
+            if(gameObject.GetComponent<Rigidbody2D>().velocity.y != 0)
+            {
+                isJump = false;
+            }
+            else
+            {
+                isJump = true;
+            }
         }
         
     }
@@ -29,3 +36,6 @@ public class CharacterMove : MonoBehaviour
         }
     }
 }
+
+
+

@@ -1,0 +1,1017 @@
+fileFormatVersion: 2
+guid: 6eb8c825f32a4214ebe995dfa057d265
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Mario_stand
+    21300002: Mario_walk_01
+    21300004: Mario_walk_02
+    21300006: Mario_walk_03
+    21300008: Mario_walk_turnBack
+    21300010: Mario_jump
+    21300012: Mario_dead
+    21300014: Mario_swim_01
+    21300016: Mario_swim_02
+    21300018: Mario_swim_03
+    21300020: Mario_swim_04
+    21300022: Mario_swim_05
+    21300024: bullet_01
+    21300026: bullet_02
+    21300028: bullet_03
+    21300030: bullet_04
+    21300032: bullet_explode
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mario_stand
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 130
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 7}
+        - {x: 2, y: 8}
+        - {x: -3, y: 8}
+        - {x: -3, y: 7}
+        - {x: -4, y: 7}
+        - {x: -4, y: 5}
+        - {x: -5, y: 5}
+        - {x: -5, y: 2}
+        - {x: -3, y: 2}
+        - {x: -3, y: 1}
+        - {x: -4, y: 1}
+        - {x: -4, y: 0}
+        - {x: -5, y: 0}
+        - {x: -5, y: -1}
+        - {x: -6, y: -1}
+        - {x: -6, y: -5.0232544}
+        - {x: -4, y: -5}
+        - {x: -4, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: -7}
+        - {x: -6, y: -7}
+        - {x: -6, y: -8}
+        - {x: -2, y: -8}
+        - {x: -2, y: -6}
+        - {x: -1, y: -6}
+        - {x: -1, y: -5}
+        - {x: 1, y: -5}
+        - {x: 1, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -8}
+        - {x: 6, y: -8}
+        - {x: 6, y: -7.028}
+        - {x: 5, y: -7}
+        - {x: 5, y: -6}
+        - {x: 4, y: -6}
+        - {x: 4, y: -5}
+        - {x: 6, y: -5}
+        - {x: 6, y: -1}
+        - {x: 5, y: -1}
+        - {x: 5, y: 0}
+        - {x: 2, y: 0}
+        - {x: 2, y: 1}
+        - {x: 4, y: 1}
+        - {x: 4, y: 2}
+        - {x: 5, y: 2}
+        - {x: 5, y: 3}
+        - {x: 6, y: 3}
+        - {x: 6, y: 4}
+        - {x: 5, y: 4}
+        - {x: 5, y: 5}
+        - {x: 3, y: 5}
+        - {x: 3, y: 6}
+        - {x: 5, y: 6}
+        - {x: 5, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6afe541134cc949acd21e346e4c13c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario_walk_01
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 130
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 6.5}
+        - {x: 2.5, y: 6.5}
+        - {x: 2.5, y: 7.5}
+        - {x: -2.477871, y: 7.5}
+        - {x: -2.5, y: 6.5}
+        - {x: -3.5, y: 6.5}
+        - {x: -3.5, y: 4.5}
+        - {x: -4.5, y: 4.5}
+        - {x: -4.5, y: 1.5}
+        - {x: -2.5, y: 1.5}
+        - {x: -2.5, y: 0.5}
+        - {x: -3.5, y: 0.5}
+        - {x: -3.5, y: -0.5}
+        - {x: -4.5, y: -0.5}
+        - {x: -4.5, y: -1.5}
+        - {x: -5.5, y: -1.5}
+        - {x: -5.5, y: -4.5}
+        - {x: -6.5, y: -4.5}
+        - {x: -6.5, y: -6.5}
+        - {x: -5.5, y: -6.5}
+        - {x: -5.5, y: -5.5}
+        - {x: -1.5, y: -5.5}
+        - {x: -1.5, y: -7.5}
+        - {x: 2.5, y: -7.5}
+        - {x: 2.5, y: -6.5}
+        - {x: 1.5, y: -6.5}
+        - {x: 1.5, y: -5.5}
+        - {x: 2.5, y: -5.5}
+        - {x: 2.5, y: -4.5}
+        - {x: 3.5, y: -4.5}
+        - {x: 3.5, y: -2.5}
+        - {x: 4.5, y: -2.5}
+        - {x: 4.5, y: -1.5}
+        - {x: 5.5, y: -1.5}
+        - {x: 5.5, y: -0.5}
+        - {x: 4.5, y: -0.5}
+        - {x: 4.5, y: 1.5}
+        - {x: 5.5, y: 1.5}
+        - {x: 5.5, y: 2.5}
+        - {x: 6.5, y: 2.5}
+        - {x: 6.5, y: 3.4564667}
+        - {x: 5.5, y: 3.5}
+        - {x: 5.5, y: 4.5}
+        - {x: 3.5, y: 4.5}
+        - {x: 3.5, y: 5.5}
+        - {x: 5.5, y: 5.5}
+      - - {x: -1.5, y: -5.5}
+        - {x: -1.5, y: -4.5}
+        - {x: -0.5, y: -4.5}
+        - {x: -0.5, y: -5.5}
+      - - {x: 2.5, y: -0.5}
+        - {x: 2.5, y: 0.5}
+        - {x: 3.5, y: 0.5}
+        - {x: 3.5, y: -0.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3de42098828d043a897b7ffc2f7364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario_walk_02
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 130
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 1}
+        - {x: 4.5, y: 1}
+        - {x: 4.5, y: 2}
+        - {x: 5.5, y: 2}
+        - {x: 5.5, y: 3}
+        - {x: 6.5, y: 3}
+        - {x: 6.5, y: 4}
+        - {x: 5.5, y: 4}
+        - {x: 5.5, y: 5}
+        - {x: 3.5, y: 5}
+        - {x: 3.5, y: 6}
+        - {x: 5.5, y: 6}
+        - {x: 5.5, y: 7}
+        - {x: 2.5, y: 7}
+        - {x: 2.5, y: 8}
+        - {x: -2.5, y: 8}
+        - {x: -2.5, y: 7}
+        - {x: -3.5, y: 7}
+        - {x: -3.5, y: 5}
+        - {x: -4.5, y: 5}
+        - {x: -4.5, y: 2}
+        - {x: -2.5, y: 2}
+        - {x: -2.5, y: 1}
+        - {x: -5.5, y: 1}
+        - {x: -5.5, y: 0}
+        - {x: -7.5, y: 0}
+        - {x: -7.5, y: -3}
+        - {x: -5.5, y: -3}
+        - {x: -5.5, y: -2}
+        - {x: -4.5, y: -2}
+        - {x: -4.5, y: -1}
+        - {x: -3.5, y: -1}
+        - {x: -3.5, y: -3}
+        - {x: -4.5, y: -3}
+        - {x: -4.5, y: -4}
+        - {x: -5.5, y: -4}
+        - {x: -5.5, y: -5}
+        - {x: -6.5, y: -5}
+        - {x: -6.5, y: -7}
+        - {x: -5.5, y: -7}
+        - {x: -5.5, y: -8}
+        - {x: -2.5, y: -8}
+        - {x: -2.5, y: -7}
+        - {x: -3.5, y: -7}
+        - {x: -3.5, y: -6}
+        - {x: -1.5, y: -6}
+        - {x: -1.5, y: -5}
+        - {x: 1.5, y: -5}
+        - {x: 1.5, y: -6}
+        - {x: 6.5, y: -6}
+        - {x: 6.5, y: -2}
+        - {x: 7.5, y: -2}
+        - {x: 7.499996, y: 0.035232544}
+        - {x: 2.5, y: 0}
+      - - {x: 3.5, y: -3}
+        - {x: 3.5, y: -2}
+        - {x: 5.5, y: -2}
+        - {x: 5.5, y: -3}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfdba77f18d2b640a53412613b6c9b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario_walk_03
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 130
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 3}
+        - {x: 5.5, y: 3}
+        - {x: 5.5, y: 4}
+        - {x: 4.5, y: 4}
+        - {x: 4.5, y: 5}
+        - {x: 2.5, y: 5}
+        - {x: 2.5, y: 6}
+        - {x: 4.5, y: 6}
+        - {x: 4.5, y: 7}
+        - {x: 1.5, y: 7}
+        - {x: 1.5, y: 8}
+        - {x: -3.5273209, y: 8}
+        - {x: -3.5, y: 7}
+        - {x: -4.5, y: 7}
+        - {x: -4.5, y: 5}
+        - {x: -5.5, y: 5}
+        - {x: -5.5, y: 2}
+        - {x: -3.5, y: 2}
+        - {x: -3.5, y: 1}
+        - {x: -4.5, y: 1}
+        - {x: -4.5, y: 0}
+        - {x: -5.5, y: 0}
+        - {x: -5.5, y: -4}
+        - {x: -4.5, y: -4}
+        - {x: -4.5, y: -5}
+        - {x: -3.5, y: -5}
+        - {x: -3.5, y: -8}
+        - {x: 0.5, y: -8}
+        - {x: 0.5, y: -7}
+        - {x: 3.5, y: -7}
+        - {x: 3.5, y: -6}
+        - {x: 2.5, y: -6}
+        - {x: 2.5, y: -4}
+        - {x: 3.5, y: -4}
+        - {x: 3.5, y: -1}
+        - {x: 2.5, y: -1}
+        - {x: 2.5, y: 0}
+        - {x: 1.5, y: 0}
+        - {x: 1.5, y: 1}
+        - {x: 3.5, y: 1}
+        - {x: 3.5, y: 2}
+        - {x: 4.5, y: 2}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f171b5bba8b85468ce13d6b6d240ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario_walk_turnBack
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 130
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 3.5}
+        - {x: 6.5, y: 3.5}
+        - {x: 6.5, y: 5.5}
+        - {x: 5.5, y: 5.5}
+        - {x: 5.5, y: 6.5}
+        - {x: 4.5, y: 6.5}
+        - {x: 4.5, y: 7.5}
+        - {x: 2.5, y: 7.5}
+        - {x: 2.5, y: 8.5}
+        - {x: -2.5, y: 8.5}
+        - {x: -2.5, y: 7.5}
+        - {x: -4.5, y: 7.5}
+        - {x: -4.5, y: 6.5}
+        - {x: -3.5, y: 6.5}
+        - {x: -3.5, y: 5.5}
+        - {x: -5.5, y: 5.5}
+        - {x: -5.5, y: 4.5}
+        - {x: -6.5, y: 4.5}
+        - {x: -6.5, y: 3.5}
+        - {x: -5.5, y: 3.5}
+        - {x: -5.5, y: 2.5}
+        - {x: -4.5, y: 2.5}
+        - {x: -4.5, y: 1.5}
+        - {x: -5.5, y: 1.5}
+        - {x: -5.5, y: -1.5}
+        - {x: -4.5, y: -1.5}
+        - {x: -4.5, y: -2.5}
+        - {x: -3.5, y: -2.5}
+        - {x: -3.5, y: -4.5}
+        - {x: -2.5, y: -4.5}
+        - {x: -2.5, y: -5.5}
+        - {x: 0.5, y: -5.5}
+        - {x: 0.5, y: -6.5}
+        - {x: 1.5, y: -6.5}
+        - {x: 1.5, y: -7.5}
+        - {x: 5.5, y: -7.5}
+        - {x: 5.5, y: -6.5}
+        - {x: 6.5, y: -6.5}
+        - {x: 6.5, y: -4.5}
+        - {x: 5.5, y: -4.5}
+        - {x: 5.5, y: -5.5}
+        - {x: 4.5, y: -5.5}
+        - {x: 4.5, y: -4.5}
+        - {x: 3.5, y: -4.5}
+        - {x: 3.5, y: -3.5}
+        - {x: 4.5, y: -3.5}
+        - {x: 4.5, y: -1.5}
+        - {x: 5.5, y: -1.5}
+        - {x: 5.5, y: 1.5}
+        - {x: 4.5, y: 1.5}
+        - {x: 4.5, y: 2.5}
+        - {x: 5.5, y: 2.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20dab1d40e008e6419b9f605409120c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario_jump
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 130
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 8.5}
+        - {x: 5, y: 6.5}
+        - {x: 3, y: 6.5}
+        - {x: 3, y: 7.5}
+        - {x: -2, y: 7.5}
+        - {x: -2, y: 6.5}
+        - {x: -3, y: 6.5}
+        - {x: -3, y: 5.5}
+        - {x: -3, y: 4.5}
+        - {x: -4, y: 4.5}
+        - {x: -4, y: 1.5}
+        - {x: -2, y: 1.5}
+        - {x: -2, y: 0.5}
+        - {x: -6, y: 0.5}
+        - {x: -6, y: -0.5}
+        - {x: -7, y: -0.5}
+        - {x: -7, y: -1.5}
+        - {x: -8, y: -1.5}
+        - {x: -8, y: -3.5}
+        - {x: -7, y: -3.5}
+        - {x: -7, y: -4.5}
+        - {x: -6, y: -4.5}
+        - {x: -6, y: -5.5}
+        - {x: -7, y: -5.5}
+        - {x: -7, y: -7.5}
+        - {x: -6, y: -7.5}
+        - {x: -6, y: -6.5}
+        - {x: -4, y: -6.5}
+        - {x: -4, y: -7.5}
+        - {x: 0, y: -7.5}
+        - {x: 0, y: -6.5}
+        - {x: 3, y: -6.5}
+        - {x: 3, y: -5.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: -0.5}
+        - {x: 7, y: -0.5}
+        - {x: 7, y: -2.5}
+        - {x: 5, y: -2.5}
+        - {x: 5, y: 0.5}
+        - {x: 6, y: 0.5}
+        - {x: 6, y: 1.5}
+        - {x: 7, y: 1.5}
+        - {x: 7, y: 2.5}
+        - {x: 8, y: 2.5}
+        - {x: 8, y: 8.5}
+      - - {x: -6, y: -4.5}
+        - {x: -6, y: -3.5}
+        - {x: -5, y: -3.5}
+        - {x: -5, y: -4.5}
+      - - {x: -5, y: -3.5}
+        - {x: -5, y: -2.5}
+        - {x: -4, y: -2.5}
+        - {x: -4, y: -3.5}
+      - - {x: 4, y: 4.5}
+        - {x: 4, y: 5.5}
+        - {x: 5, y: 5.5}
+        - {x: 5, y: 4.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d443149572e109542a1e440d5a71afac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario_dead
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 132
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7}
+        - {x: -2, y: 6}
+        - {x: -3, y: 6}
+        - {x: -3, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 6}
+        - {x: -5, y: 6}
+        - {x: -5, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: 2}
+        - {x: -5, y: 2}
+        - {x: -5, y: 1}
+        - {x: -4, y: 1}
+        - {x: -4, y: -1}
+        - {x: -5, y: -1}
+        - {x: -5, y: -2.00589}
+        - {x: -6, y: -2}
+        - {x: -6, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: -7}
+        - {x: 5, y: -7}
+        - {x: 5, y: -6}
+        - {x: 6, y: -6}
+        - {x: 6, y: -2}
+        - {x: 5, y: -2}
+        - {x: 5, y: -1}
+        - {x: 4, y: -1}
+        - {x: 4, y: 1}
+        - {x: 5, y: 1}
+        - {x: 5, y: 2}
+        - {x: 7, y: 2}
+        - {x: 7, y: 5}
+        - {x: 5, y: 5}
+        - {x: 5, y: 6}
+        - {x: 4, y: 6}
+        - {x: 4, y: 5}
+        - {x: 3, y: 5}
+        - {x: 3, y: 6}
+        - {x: 2, y: 6}
+        - {x: 2, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c299768e1c3a65046a758d37a250dd9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario_swim_01
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 132
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc970d8a8524d047a71486b39ee2e47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario_swim_02
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 132
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cb49b8f45a5d94b9cb41a82f3a5275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario_swim_03
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 132
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3d4fb083586274aa6d5b5c4de66f37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario_swim_04
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 131
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b15600154138f74eb31a1616522b403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario_swim_05
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 131
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a94333fcece9349bbcedb43083cd4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet_01
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 5
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 0.5}
+        - {x: 3, y: -0.5}
+        - {x: 1, y: -0.5}
+        - {x: 1, y: 1.5}
+        - {x: 0, y: 1.5}
+        - {x: 0, y: 2.5}
+        - {x: -3, y: 2.5}
+        - {x: -3, y: 1.5}
+        - {x: -4, y: 1.5}
+        - {x: -4, y: -2.5}
+        - {x: -3, y: -2.5}
+        - {x: -3, y: -3.5}
+        - {x: -2, y: -3.5}
+        - {x: -2, y: -4.5}
+        - {x: 2, y: -4.5}
+        - {x: 2, y: -3.5}
+        - {x: 3, y: -3.5}
+        - {x: 3, y: -1.5}
+        - {x: 4, y: -1.5}
+        - {x: 4, y: 0.5}
+      - - {x: 1, y: 2.5}
+        - {x: 1, y: 3.5}
+        - {x: 2, y: 3.5}
+        - {x: 2, y: 2.5}
+      - - {x: 3, y: 1.5}
+        - {x: 3, y: 2.5}
+        - {x: 4, y: 2.5}
+        - {x: 4, y: 1.5}
+      - - {x: 2, y: 0.5}
+        - {x: 2, y: 1.5}
+        - {x: 3, y: 1.5}
+        - {x: 3, y: 0.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eed31ab581bb1b419d8ec67ef4b5bc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet_02
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 3.5}
+        - {x: -2, y: 2.5}
+        - {x: -3, y: 2.5}
+        - {x: -3, y: 1.5}
+        - {x: -4, y: 1.5}
+        - {x: -4, y: -2.5}
+        - {x: -3, y: -2.5}
+        - {x: -3, y: -3.5}
+        - {x: -1, y: -3.5}
+        - {x: -1, y: -4.5}
+        - {x: 1, y: -4.5}
+        - {x: 1, y: -3.5}
+        - {x: 0, y: -3.5}
+        - {x: 0, y: -1.5}
+        - {x: 2, y: -1.5}
+        - {x: 2, y: -0.5}
+        - {x: 3, y: -0.5}
+        - {x: 3, y: 2.5}
+        - {x: 2, y: 2.5}
+        - {x: 2, y: 3.5}
+      - - {x: 1, y: -3.5}
+        - {x: 1, y: -2.5}
+        - {x: 2, y: -2.5}
+        - {x: 2, y: -3.5}
+      - - {x: 2, y: -4.5}
+        - {x: 2, y: -3.5}
+        - {x: 3, y: -3.5}
+        - {x: 3, y: -4.5}
+      - - {x: 3, y: -2.5}
+        - {x: 3, y: -1.5}
+        - {x: 4, y: -1.5}
+        - {x: 4, y: -2.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49a41cc3a013b94f9a60d534b8371f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet_03
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 5
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 3.5}
+        - {x: -2, y: 2.5}
+        - {x: -3, y: 2.5}
+        - {x: -3, y: 0.5}
+        - {x: -4, y: 0.5}
+        - {x: -4, y: -1.5}
+        - {x: -3, y: -1.5}
+        - {x: -3, y: -0.5}
+        - {x: -1, y: -0.5}
+        - {x: -1, y: -2.5}
+        - {x: 0, y: -2.5}
+        - {x: 0, y: -3.5}
+        - {x: 3, y: -3.5}
+        - {x: 3, y: -2.5}
+        - {x: 4, y: -2.5}
+        - {x: 4, y: 1.5}
+        - {x: 3, y: 1.5}
+        - {x: 3, y: 2.5}
+        - {x: 2, y: 2.5}
+        - {x: 2, y: 3.5}
+      - - {x: -3, y: -2.5}
+        - {x: -3, y: -1.5}
+        - {x: -2, y: -1.5}
+        - {x: -2, y: -2.5}
+      - - {x: -4, y: -3.5}
+        - {x: -4, y: -2.5}
+        - {x: -3, y: -2.5}
+        - {x: -3, y: -3.5}
+      - - {x: -2, y: -4.5}
+        - {x: -2, y: -3.5}
+        - {x: -1, y: -3.5}
+        - {x: -1, y: -4.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41755fd295a978044a527998e5700770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet_04
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 5
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 2.5}
+        - {x: 3, y: 3.5}
+        - {x: 1, y: 3.5}
+        - {x: 1, y: 4.5}
+        - {x: -1, y: 4.5}
+        - {x: -1, y: 3.5}
+        - {x: 0, y: 3.5}
+        - {x: 0, y: 1.5}
+        - {x: -2, y: 1.5}
+        - {x: -2, y: 0.5}
+        - {x: -3, y: 0.5}
+        - {x: -3, y: -2.5}
+        - {x: -2, y: -2.5}
+        - {x: -2, y: -3.5}
+        - {x: 2, y: -3.5}
+        - {x: 2, y: -2.5}
+        - {x: 3, y: -2.5}
+        - {x: 3, y: -1.5}
+        - {x: 4, y: -1.5}
+        - {x: 4, y: 2.5}
+      - - {x: -3, y: 3.5}
+        - {x: -3, y: 4.5}
+        - {x: -2, y: 4.5}
+        - {x: -2, y: 3.5}
+      - - {x: -2, y: 2.5}
+        - {x: -2, y: 3.5}
+        - {x: -1, y: 3.5}
+        - {x: -1, y: 2.5}
+      - - {x: -4, y: 1.5}
+        - {x: -4, y: 2.5}
+        - {x: -3, y: 2.5}
+        - {x: -3, y: 1.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bae16746c896bc48b63e8675e2a2d9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet_explode
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 3
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 6}
+        - {x: 2, y: 6}
+        - {x: 2, y: 5}
+        - {x: 1, y: 5}
+        - {x: 1, y: 6}
+        - {x: -1, y: 6}
+        - {x: -1, y: 5}
+        - {x: -2, y: 5}
+        - {x: -2, y: 6}
+        - {x: -3, y: 6}
+        - {x: -3, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 3}
+        - {x: -5, y: 3}
+        - {x: -5, y: 1}
+        - {x: -6, y: 1}
+        - {x: -6, y: -1}
+        - {x: -5, y: -1}
+        - {x: -5, y: -3}
+        - {x: -4, y: -3}
+        - {x: -4, y: -5}
+        - {x: -3, y: -5}
+        - {x: -3, y: -6}
+        - {x: -2, y: -6}
+        - {x: -2, y: -5}
+        - {x: -1, y: -5}
+        - {x: -1, y: -6}
+        - {x: 1, y: -6}
+        - {x: 1, y: -5}
+        - {x: 2, y: -5}
+        - {x: 2, y: -6}
+        - {x: 3, y: -6}
+        - {x: 3, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -3}
+        - {x: 5, y: -3}
+        - {x: 5, y: -1}
+        - {x: 6, y: -1}
+        - {x: 6, y: 1}
+        - {x: 5, y: 1}
+        - {x: 5, y: 3}
+        - {x: 4, y: 3}
+        - {x: 4, y: 5}
+        - {x: 3, y: 5}
+      - - {x: -6, y: -4}
+        - {x: -6, y: -3}
+        - {x: -5, y: -3}
+        - {x: -5, y: -4}
+      - - {x: -4, y: -7}
+        - {x: -4, y: -6}
+        - {x: -3, y: -6}
+        - {x: -3, y: -7}
+      - - {x: 3, y: -7}
+        - {x: 3, y: -6}
+        - {x: 4, y: -6}
+        - {x: 4, y: -7}
+      - - {x: 5, y: -4}
+        - {x: 5, y: -3}
+        - {x: 6, y: -3}
+        - {x: 6, y: -4}
+      - - {x: -6, y: 3}
+        - {x: -6, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 3}
+      - - {x: -4, y: 6}
+        - {x: -4, y: 7}
+        - {x: -3, y: 7}
+        - {x: -3, y: 6}
+      - - {x: 3, y: 6}
+        - {x: 3, y: 7}
+        - {x: 4, y: 7}
+        - {x: 4, y: 6}
+      - - {x: 5, y: 3}
+        - {x: 5, y: 4}
+        - {x: 6, y: 4}
+        - {x: 6, y: 3}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb5287981944874f83dfd9e558189f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bcff5ed72cb985a458b80d36e63ad793
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
