@@ -1,30 +1,34 @@
 ﻿using UnityEngine;
-using System.Collections;
+
 
 public class EnemyType_1 : MonoBehaviour
 {
-    private bool isGround = false;
+    private bool isBoxBlock = false;
     private float speed = 1f;
+    private Rigidbody2D enemytype_1Rigi2D;
 
     void Start()
     {
+        enemytype_1Rigi2D = gameObject.GetComponent<Rigidbody2D>();
     }
     void Update()
     {
-        if (isGround)
+        enemytype_1Rigi2D.velocity = Vector2.left * speed;
+        if (isBoxBlock)
         {
             speed = -speed;
+            isBoxBlock = false;
         }
-        transform.position = Vector3.Lerp()
+        Debug.Log(speed.ToString());
         
-        Debug.Log(isGround);
         
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "CollinderBoxBlock")
         {
-            isGround = true;
+            isBoxBlock = true;
         }
+            
     }
 }
