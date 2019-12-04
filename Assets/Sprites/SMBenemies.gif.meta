@@ -1,7 +1,10 @@
 fileFormatVersion: 2
 guid: aa941a50780fe084bbe3bc805c1c1443
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Enemy_type1_left
+    21300002: Enemy_type1_right
+    21300004: Enemy_type1_Dead
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -31,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -45,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -82,11 +85,204 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Enemy_type1_left
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 3}
+        - {x: 6, y: 4}
+        - {x: 5, y: 4}
+        - {x: 5, y: 5}
+        - {x: 4, y: 5}
+        - {x: 4, y: 6}
+        - {x: 3, y: 6}
+        - {x: 3, y: 7}
+        - {x: 2, y: 7}
+        - {x: 2, y: 8}
+        - {x: -2, y: 8}
+        - {x: -2, y: 7}
+        - {x: -3, y: 7}
+        - {x: -3, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 5}
+        - {x: -5, y: 5}
+        - {x: -5, y: 4}
+        - {x: -6, y: 4}
+        - {x: -6, y: 3}
+        - {x: -7, y: 3}
+        - {x: -7, y: 1}
+        - {x: -8, y: 1}
+        - {x: -8, y: -2}
+        - {x: -7, y: -2}
+        - {x: -7, y: -3}
+        - {x: -4, y: -3}
+        - {x: -4, y: -4}
+        - {x: -6, y: -4}
+        - {x: -6, y: -5}
+        - {x: -7, y: -5}
+        - {x: -7, y: -7}
+        - {x: -6, y: -7}
+        - {x: -6, y: -8}
+        - {x: -1, y: -8}
+        - {x: -1, y: -7}
+        - {x: 1, y: -7}
+        - {x: 1, y: -8}
+        - {x: 4, y: -8}
+        - {x: 4, y: -7}
+        - {x: 5, y: -7}
+        - {x: 5, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -3}
+        - {x: 7, y: -3}
+        - {x: 7, y: -2}
+        - {x: 8, y: -2}
+        - {x: 8, y: 1}
+        - {x: 7, y: 1}
+        - {x: 7, y: 3}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfc630ca7e5d1546a8dbb60962b19ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_type1_right
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 3}
+        - {x: 6, y: 4}
+        - {x: 5, y: 4}
+        - {x: 5, y: 5}
+        - {x: 4, y: 5}
+        - {x: 4, y: 6}
+        - {x: 3, y: 6}
+        - {x: 3, y: 7}
+        - {x: 2, y: 7}
+        - {x: 2, y: 8}
+        - {x: -2, y: 8}
+        - {x: -2, y: 7}
+        - {x: -3, y: 7}
+        - {x: -3, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 5}
+        - {x: -5, y: 5}
+        - {x: -5, y: 4}
+        - {x: -6, y: 4}
+        - {x: -6, y: 3}
+        - {x: -7, y: 3}
+        - {x: -7, y: 1}
+        - {x: -8, y: 1}
+        - {x: -8, y: -2}
+        - {x: -7, y: -2}
+        - {x: -7, y: -3}
+        - {x: -4, y: -3}
+        - {x: -4, y: -5}
+        - {x: -5, y: -5}
+        - {x: -5, y: -7}
+        - {x: -4, y: -7}
+        - {x: -4, y: -8}
+        - {x: -1, y: -8}
+        - {x: -1, y: -7}
+        - {x: 1, y: -7}
+        - {x: 1, y: -8}
+        - {x: 6, y: -8}
+        - {x: 6, y: -7}
+        - {x: 7, y: -7}
+        - {x: 7, y: -5}
+        - {x: 6, y: -5}
+        - {x: 6, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: -3}
+        - {x: 7, y: -3}
+        - {x: 7, y: -2}
+        - {x: 8, y: -2}
+        - {x: 8, y: 1}
+        - {x: 7, y: 1}
+        - {x: 7, y: 3}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8ca0a4393629d4c948a341fe73a817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_type1_Dead
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 1}
+        - {x: -2, y: 0}
+        - {x: -5, y: 0}
+        - {x: -5, y: -1}
+        - {x: -7, y: -1}
+        - {x: -7, y: -2}
+        - {x: -8, y: -2}
+        - {x: -8, y: -4}
+        - {x: -5, y: -4}
+        - {x: -5, y: -5}
+        - {x: -4, y: -5}
+        - {x: -4, y: -6}
+        - {x: -7, y: -6}
+        - {x: -7, y: -7}
+        - {x: -2, y: -7}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -7}
+        - {x: 7, y: -7}
+        - {x: 7, y: -6}
+        - {x: 4, y: -6}
+        - {x: 4, y: -5}
+        - {x: 5, y: -5}
+        - {x: 5, y: -4}
+        - {x: 7, y: -4}
+        - {x: 8, y: -4}
+        - {x: 8, y: -2}
+        - {x: 7, y: -2}
+        - {x: 7, y: -1}
+        - {x: 5, y: -1}
+        - {x: 5, y: 0}
+        - {x: 2, y: 0}
+        - {x: 2, y: 1}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be79d1408a0cfb4e96ba9a5008acee1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c1b5a8fe27f5ad14b8d4b5bc547f07c6
     vertices: []
     indices: 
     edges: []
