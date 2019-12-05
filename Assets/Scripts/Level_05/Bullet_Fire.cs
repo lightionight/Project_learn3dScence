@@ -34,8 +34,8 @@ public class Bullet_Fire : MonoBehaviour
             {
                 Debug.Log("play Explode animation");
             }
-            Destroy(gameObject, 0.25f);
-            Destroy(collision.gameObject, 0.3f);
+            Destroy(gameObject, 0.2f);
+            Destroy(collision.gameObject, 0.2f);
 
 
         }

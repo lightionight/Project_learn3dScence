@@ -46,6 +46,7 @@ public class EnemyType_1 : MonoBehaviour
         if (collision.gameObject.tag == "Bullet")
         {
             isDestroy = true;
+            gameObject.GetComponent<Animator>().SetBool("_BeingHit", true);
         }
     }
 }
