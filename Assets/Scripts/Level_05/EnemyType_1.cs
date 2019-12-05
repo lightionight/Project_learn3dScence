@@ -3,32 +3,49 @@
 
 public class EnemyType_1 : MonoBehaviour
 {
-    private bool isBoxBlock = false;
-    private float speed = 1f;
-    private Rigidbody2D enemytype_1Rigi2D;
+    private float moveSpeed = 1f;
+    private static float originPosX, originPosLeft, originPosRight;
+    private Rigidbody2D enenmyType1Rigi2d;
+    private float lastTime, moveTime;
+    private bool isDestroy = false;
 
     void Start()
     {
-        enemytype_1Rigi2D = gameObject.GetComponent<Rigidbody2D>();
+        enenmyType1Rigi2d = gameObject.GetComponent<Rigidbody2D>();
+        originPosX = transform.position.x;
+        originPosLeft = originPosX - 2f;
+        originPosRight = originPosX + 2f;
+        lastTime = Time.time;
+        moveTime = 3f;
+
+
+
     }
     void Update()
     {
-        enemytype_1Rigi2D.velocity = Vector2.left * speed;
-        if (isBoxBlock)
+        if(!isDestroy)
         {
-            speed = -speed;
-            isBoxBlock = false;
+            enenmyType1Rigi2d.velocity = new Vector2(moveSpeed, 0);
+            if(Time.time - lastTime > moveTime)
+            {
+                lastTime = Time.time;
+                moveSpeed = -moveSpeed;
+            }
+
         }
-        Debug.Log(speed.ToString());
-        
-        
+        else
+        {
+            enenmyType1Rigi2d.velocity = new Vector2(0, 0);
+        }
+        //Mathf.PingPong Methon
+        //transform.position = new Vector3((Mathf.PingPong(Time.time, 4f) + originPosX), transform.position.y, transform.position.z);
     }
-    void OnCollisionEnter2D(Collision2D collision)
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "CollinderBoxBlock")
+        if (collision.gameObject.tag == "Bullet")
         {
-            isBoxBlock = true;
+            isDestroy = true;
         }
-            
     }
 }

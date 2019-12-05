@@ -1,11 +1,18 @@
 ﻿using UnityEngine;
 using System;
-
+/*********************角色基础操控方式类****************************/
 public class CharacterControllerBase : MonoBehaviour
 {
     //2D Parameter
     private bool _IsRun;
     private bool _IsJump;
+    //武器属性
+    float bulletPressCurrentTime, bulletPressBeforeTime;
+    float bulletFireInterval = 1f;
+    private void Start()
+    {
+        bulletPressBeforeTime = Time.time;
+    }
 
     //3D Parameter
     //2D基本控制
@@ -63,21 +70,43 @@ public class CharacterControllerBase : MonoBehaviour
             //Debug.Log(_IsJump);
 
         }
-        else
-        {
-            playerRigi2d.velocity = new Vector2(0, 0);
-        }
+        //else
+        //{
+        //    playerRigi2d.velocity = new Vector2(0, 0);
+        //}
 
         //控制武器释放
+        Shoot(bullet);
 
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            Vector3 bornPoint = GameObject.Find("Bullet_BornPoint").GetComponent<Transform>().position;
-            Instantiate(bullet, bornPoint, Quaternion.identity,GameObject.Find("Mario").GetComponent<Transform>());
-        }
+        
     }
     
+    void Shoot(GameObject bullet)
+    {
+        //shootTimer += Time.deltaTime;
+        //if(shootTimer > 3f)
+        //{
+        //    shootTimer = 3f;
+        //}
+        //Debug.Log($"before: {shootTimer}");
+        //if(shootTimer > shootTimerInterval)
+        //{
+        //shootTimer -= shootTimerInterval;
+        //Debug.Log($"after: {shootTimer}")
+        //};
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            if(Time.time - bulletPressBeforeTime >=  bulletFireInterval)
+            {
+                bulletPressBeforeTime = Time.time;
+                Vector3 bornPoint = GameObject.Find("Bullet_BornPoint").GetComponent<Transform>().position;
+                Instantiate(bullet, bornPoint, Quaternion.identity, GameObject.Find("Mario").GetComponent<Transform>());
 
+            }
+        }
+        
+        
+    }
 
     //3D基本控制
     public void _base3dController(GameObject player)

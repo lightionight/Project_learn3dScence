@@ -4,14 +4,18 @@ public class Bullet_Fire : MonoBehaviour
 {
     private float bullet_speed = 2f;
     Animator bulletAnimator;
+    private bool hitEnemy =false;
     private void Start()
     {
         bulletAnimator = gameObject.GetComponent<Animator>();
     }
     void Update()
     {
+        if(!hitEnemy)
+        {
+            transform.Translate(Vector3.right * Time.deltaTime * bullet_speed);
 
-        transform.Translate(Vector3.right * Time.deltaTime * bullet_speed);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -23,9 +27,17 @@ public class Bullet_Fire : MonoBehaviour
         }
         if (collision.gameObject.tag == "Enemy")
         {
+            Debug.Log("Touch Enemy");
+            hitEnemy = true;
             bulletAnimator.SetBool("_HitEnemy", true);
-            Destroy(gameObject, 0.5f);
-            Destroy(collision.gameObject, 0.5f);
+            if(bulletAnimator.GetBool("_HitEnemy"))
+            {
+                Debug.Log("play Explode animation");
+            }
+            Destroy(gameObject, 0.25f);
+            Destroy(collision.gameObject, 0.3f);
+
+
         }
     }
 }

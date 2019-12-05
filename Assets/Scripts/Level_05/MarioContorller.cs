@@ -5,19 +5,21 @@ public class MarioContorller : MonoBehaviour
     private CharacterControllerBase characterControllerBase;
     private bool isGround = false;
     public GameObject bullet;
+    
 
     // Use this for initialization
     void Start()
     {
         characterControllerBase = gameObject.AddComponent<CharacterControllerBase>();
+        
     }
     // Update is called once per frame
     void Update()
     {
         
+        characterControllerBase._base2dController(gameObject, isGround, bullet);
         if (isGround)
         {
-            characterControllerBase._base2dController(gameObject, isGround, bullet);
             if (gameObject.GetComponent<Rigidbody2D>().velocity.y != 0)
             {
                 isGround = false;
@@ -40,6 +42,6 @@ public class MarioContorller : MonoBehaviour
     }
     void Fire()
     {
-
+        
     }
 }

@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Ground
   - CollinderBoxBlock
+  - Bullet
   layers:
   - Default
   - TransparentFX
