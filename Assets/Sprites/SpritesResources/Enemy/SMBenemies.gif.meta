@@ -1,0 +1,1908 @@
+fileFormatVersion: 2
+guid: aa941a50780fe084bbe3bc805c1c1443
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Enemy_type1_left
+    21300002: Enemy_type1_right
+    21300004: Enemy_type1_Dead
+    21300006: SMBenemies_0
+    21300008: SMBenemies_1
+    21300010: SMBenemies_2
+    21300012: SMBenemies_3
+    21300014: SMBenemies_4
+    21300016: SMBenemies_5
+    21300018: SMBenemies_6
+    21300020: SMBenemies_7
+    21300022: SMBenemies_8
+    21300024: SMBenemies_9
+    21300026: SMBenemies_10
+    21300028: SMBenemies_11
+    21300030: SMBenemies_12
+    21300032: SMBenemies_13
+    21300034: SMBenemies_14
+    21300036: SMBenemies_15
+    21300038: SMBenemies_16
+    21300040: SMBenemies_17
+    21300042: SMBenemies_18
+    21300044: SMBenemies_19
+    21300046: SMBenemies_20
+    21300048: SMBenemies_21
+    21300050: SMBenemies_22
+    21300052: SMBenemies_23
+    21300054: SMBenemies_24
+    21300056: SMBenemies_25
+    21300058: SMBenemies_26
+    21300060: SMBenemies_27
+    21300062: SMBenemies_28
+    21300064: SMBenemies_29
+    21300066: SMBenemies_30
+    21300068: SMBenemies_31
+    21300070: SMBenemies_32
+    21300072: SMBenemies_33
+    21300074: SMBenemies_34
+    21300076: SMBenemies_35
+    21300078: SMBenemies_36
+    21300080: SMBenemies_37
+    21300082: SMBenemies_38
+    21300084: SMBenemies_39
+    21300086: SMBenemies_40
+    21300088: SMBenemies_41
+    21300090: SMBenemies_42
+    21300092: SMBenemies_43
+    21300094: SMBenemies_44
+    21300096: SMBenemies_45
+    21300098: SMBenemies_46
+    21300100: SMBenemies_47
+    21300102: SMBenemies_48
+    21300104: SMBenemies_49
+    21300106: SMBenemies_50
+    21300108: SMBenemies_51
+    21300110: SMBenemies_52
+    21300112: SMBenemies_53
+    21300114: SMBenemies_54
+    21300116: SMBenemies_55
+    21300118: SMBenemies_56
+    21300120: SMBenemies_57
+    21300122: SMBenemies_58
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemy_type1_left
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 3}
+        - {x: 6, y: 4}
+        - {x: 5, y: 4}
+        - {x: 5, y: 5}
+        - {x: 4, y: 5}
+        - {x: 4, y: 6}
+        - {x: 3, y: 6}
+        - {x: 3, y: 7}
+        - {x: 2, y: 7}
+        - {x: 2, y: 8}
+        - {x: -2, y: 8}
+        - {x: -2, y: 7}
+        - {x: -3, y: 7}
+        - {x: -3, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 5}
+        - {x: -5, y: 5}
+        - {x: -5, y: 4}
+        - {x: -6, y: 4}
+        - {x: -6, y: 3}
+        - {x: -7, y: 3}
+        - {x: -7, y: 1}
+        - {x: -8, y: 1}
+        - {x: -8, y: -2}
+        - {x: -7, y: -2}
+        - {x: -7, y: -3}
+        - {x: -4, y: -3}
+        - {x: -4, y: -4}
+        - {x: -6, y: -4}
+        - {x: -6, y: -5}
+        - {x: -7, y: -5}
+        - {x: -7, y: -7}
+        - {x: -6, y: -7}
+        - {x: -6, y: -8}
+        - {x: -1, y: -8}
+        - {x: -1, y: -7}
+        - {x: 1, y: -7}
+        - {x: 1, y: -8}
+        - {x: 4, y: -8}
+        - {x: 4, y: -7}
+        - {x: 5, y: -7}
+        - {x: 5, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -3}
+        - {x: 7, y: -3}
+        - {x: 7, y: -2}
+        - {x: 8, y: -2}
+        - {x: 8, y: 1}
+        - {x: 7, y: 1}
+        - {x: 7, y: 3}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfc630ca7e5d1546a8dbb60962b19ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_type1_right
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 3}
+        - {x: 6, y: 4}
+        - {x: 5, y: 4}
+        - {x: 5, y: 5}
+        - {x: 4, y: 5}
+        - {x: 4, y: 6}
+        - {x: 3, y: 6}
+        - {x: 3, y: 7}
+        - {x: 2, y: 7}
+        - {x: 2, y: 8}
+        - {x: -2, y: 8}
+        - {x: -2, y: 7}
+        - {x: -3, y: 7}
+        - {x: -3, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 5}
+        - {x: -5, y: 5}
+        - {x: -5, y: 4}
+        - {x: -6, y: 4}
+        - {x: -6, y: 3}
+        - {x: -7, y: 3}
+        - {x: -7, y: 1}
+        - {x: -8, y: 1}
+        - {x: -8, y: -2}
+        - {x: -7, y: -2}
+        - {x: -7, y: -3}
+        - {x: -4, y: -3}
+        - {x: -4, y: -5}
+        - {x: -5, y: -5}
+        - {x: -5, y: -7}
+        - {x: -4, y: -7}
+        - {x: -4, y: -8}
+        - {x: -1, y: -8}
+        - {x: -1, y: -7}
+        - {x: 1, y: -7}
+        - {x: 1, y: -8}
+        - {x: 6, y: -8}
+        - {x: 6, y: -7}
+        - {x: 7, y: -7}
+        - {x: 7, y: -5}
+        - {x: 6, y: -5}
+        - {x: 6, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: -3}
+        - {x: 7, y: -3}
+        - {x: 7, y: -2}
+        - {x: 8, y: -2}
+        - {x: 8, y: 1}
+        - {x: 7, y: 1}
+        - {x: 7, y: 3}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8ca0a4393629d4c948a341fe73a817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_type1_Dead
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 1}
+        - {x: -2, y: 0}
+        - {x: -5, y: 0}
+        - {x: -5, y: -1}
+        - {x: -7, y: -1}
+        - {x: -7, y: -2}
+        - {x: -8, y: -2}
+        - {x: -8, y: -4}
+        - {x: -5, y: -4}
+        - {x: -5, y: -5}
+        - {x: -4, y: -5}
+        - {x: -4, y: -6}
+        - {x: -7, y: -6}
+        - {x: -7, y: -7}
+        - {x: -2, y: -7}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -7}
+        - {x: 7, y: -7}
+        - {x: 7, y: -6}
+        - {x: 4, y: -6}
+        - {x: 4, y: -5}
+        - {x: 5, y: -5}
+        - {x: 5, y: -4}
+        - {x: 7, y: -4}
+        - {x: 8, y: -4}
+        - {x: 8, y: -2}
+        - {x: 7, y: -2}
+        - {x: 7, y: -1}
+        - {x: 5, y: -1}
+        - {x: 5, y: 0}
+        - {x: 2, y: 0}
+        - {x: 2, y: 1}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be79d1408a0cfb4e96ba9a5008acee1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe5663f4c20af542b94685f68c7f556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98edcdbc220ca7944913e86623e87746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 181
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710df5cf6453c6043ac8707a4f198dfd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 180
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93a06d61cb575049b144b1cd39f366f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 179
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcc3d032174e5b45bb62763631cb247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 180
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccd348af4d197643b84587caeac7dd7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 149
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 0.5}
+        - {x: 6, y: 1.5}
+        - {x: 5, y: 1.5}
+        - {x: 5, y: 2.5}
+        - {x: 0, y: 2.5}
+        - {x: 0, y: 1.5}
+        - {x: -1, y: 1.5}
+        - {x: -1, y: -0.5}
+        - {x: -2, y: -0.5}
+        - {x: -2, y: 2.5}
+        - {x: -1, y: 2.5}
+        - {x: -1, y: 8.5}
+        - {x: -2, y: 8.5}
+        - {x: -2, y: 9.5}
+        - {x: -3, y: 9.5}
+        - {x: -3, y: 10.5}
+        - {x: -4, y: 10.5}
+        - {x: -4, y: 11.5}
+        - {x: -5, y: 11.5}
+        - {x: -5, y: 10.5}
+        - {x: -6, y: 10.5}
+        - {x: -6, y: 8.5}
+        - {x: -7, y: 8.5}
+        - {x: -7, y: 4.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -1.5}
+        - {x: -7, y: -1.5}
+        - {x: -7, y: -2.5}
+        - {x: -6, y: -2.5}
+        - {x: -6, y: 0.5}
+        - {x: -5, y: 0.5}
+        - {x: -5, y: 1.5}
+        - {x: -4, y: 1.5}
+        - {x: -4, y: -0.5}
+        - {x: -5, y: -0.5}
+        - {x: -5, y: -3.5}
+        - {x: -6, y: -3.5}
+        - {x: -6, y: -4.5}
+        - {x: -5, y: -4.5}
+        - {x: -5, y: -6.5}
+        - {x: -4, y: -6.5}
+        - {x: -4, y: -8.5}
+        - {x: -5, y: -8.5}
+        - {x: -5, y: -9.5}
+        - {x: -6, y: -9.5}
+        - {x: -6, y: -10.5}
+        - {x: -7, y: -10.5}
+        - {x: -7, y: -11.5}
+        - {x: -2, y: -11.5}
+        - {x: -2, y: -10.5}
+        - {x: 4, y: -10.5}
+        - {x: 4, y: -11.5}
+        - {x: 8, y: -11.5}
+        - {x: 8, y: -10.5}
+        - {x: 7, y: -10.5}
+        - {x: 7, y: -9.5}
+        - {x: 6, y: -9.5}
+        - {x: 6, y: -8.5}
+        - {x: 8, y: -8.5}
+        - {x: 8, y: -7.5}
+        - {x: 7, y: -7.5}
+        - {x: 7, y: 0.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b326b133a8a79b44f9ee2bd1763de5cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_7
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 150
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 3}
+        - {x: 0, y: 3}
+        - {x: 0, y: 2}
+        - {x: -1, y: 2}
+        - {x: -1, y: 9}
+        - {x: -2, y: 9}
+        - {x: -2, y: 11}
+        - {x: -3, y: 11}
+        - {x: -3, y: 12}
+        - {x: -4, y: 12}
+        - {x: -4, y: 11}
+        - {x: -5, y: 11}
+        - {x: -5, y: 10}
+        - {x: -6, y: 10}
+        - {x: -6, y: 8}
+        - {x: -7, y: 8}
+        - {x: -7, y: 5}
+        - {x: -8, y: 5}
+        - {x: -8, y: 1}
+        - {x: -6, y: 1}
+        - {x: -6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -5, y: 3}
+        - {x: -3, y: 3}
+        - {x: -3, y: 1}
+        - {x: -4, y: 1}
+        - {x: -4, y: 0}
+        - {x: -5, y: 0}
+        - {x: -5, y: -1}
+        - {x: -7, y: -1}
+        - {x: -7, y: -2}
+        - {x: -6, y: -2}
+        - {x: -6, y: -3}
+        - {x: -5, y: -3}
+        - {x: -5, y: -6}
+        - {x: -4, y: -6}
+        - {x: -4, y: -10}
+        - {x: -3, y: -10}
+        - {x: -3, y: -11}
+        - {x: -2, y: -11}
+        - {x: -2, y: -12}
+        - {x: 1, y: -12}
+        - {x: 1, y: -11}
+        - {x: 0, y: -11}
+        - {x: 0, y: -10}
+        - {x: 4, y: -10}
+        - {x: 4, y: -11}
+        - {x: 3, y: -11}
+        - {x: 3, y: -12}
+        - {x: 6, y: -12}
+        - {x: 6, y: -11}
+        - {x: 7, y: -11}
+        - {x: 7, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -7}
+        - {x: 7, y: -7}
+        - {x: 7, y: 0}
+        - {x: 6, y: 0}
+        - {x: 6, y: 2}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bf23b831be74a44ad836a0b70772b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 149
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 7}
+        - {x: -3, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 5}
+        - {x: -5, y: 5}
+        - {x: -5, y: 3}
+        - {x: -6, y: 3}
+        - {x: -6, y: 1}
+        - {x: -7, y: 1}
+        - {x: -7, y: -1}
+        - {x: -8, y: -1}
+        - {x: -8, y: -3}
+        - {x: -5, y: -3}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -3, y: -5}
+        - {x: -3, y: -6}
+        - {x: -2, y: -6}
+        - {x: -2, y: -7}
+        - {x: 2, y: -7}
+        - {x: 2, y: -6}
+        - {x: 3, y: -6}
+        - {x: 3, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -3}
+        - {x: 8, y: -3}
+        - {x: 8, y: -1}
+        - {x: 7, y: -1}
+        - {x: 7, y: 1}
+        - {x: 6, y: 1}
+        - {x: 6, y: 3}
+        - {x: 5, y: 3}
+        - {x: 5, y: 5}
+        - {x: 4, y: 5}
+        - {x: 4, y: 6}
+        - {x: 3, y: 6}
+        - {x: 3, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9431c27c21ce46946b3914cbcda823c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_9
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 148
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 7.5}
+        - {x: -3, y: 6.5}
+        - {x: -4, y: 6.5}
+        - {x: -4, y: 5.5}
+        - {x: -5, y: 5.5}
+        - {x: -5, y: 3.5}
+        - {x: -6, y: 3.5}
+        - {x: -6, y: 1.5}
+        - {x: -7, y: 1.5}
+        - {x: -7, y: -0.5}
+        - {x: -8, y: -0.5}
+        - {x: -8, y: -2.5}
+        - {x: -6, y: -2.5}
+        - {x: -6, y: -3.5}
+        - {x: -7, y: -3.5}
+        - {x: -7, y: -7.5}
+        - {x: -6, y: -7.5}
+        - {x: -6, y: -6.5}
+        - {x: -5, y: -6.5}
+        - {x: -5, y: -5.5}
+        - {x: -4, y: -5.5}
+        - {x: -4, y: -4.5}
+        - {x: -3, y: -4.5}
+        - {x: -3, y: -5.5}
+        - {x: -2, y: -5.5}
+        - {x: -2, y: -6.5}
+        - {x: 2, y: -6.5}
+        - {x: 2, y: -5.5}
+        - {x: 3, y: -5.5}
+        - {x: 3, y: -4.5}
+        - {x: 4, y: -4.5}
+        - {x: 4, y: -5.5}
+        - {x: 5, y: -5.5}
+        - {x: 5, y: -6.5}
+        - {x: 6, y: -6.5}
+        - {x: 6, y: -7.5}
+        - {x: 7, y: -7.5}
+        - {x: 7, y: -3.5}
+        - {x: 6, y: -3.5}
+        - {x: 6, y: -2.5}
+        - {x: 8, y: -2.5}
+        - {x: 8, y: -0.5}
+        - {x: 7, y: -0.5}
+        - {x: 7, y: 1.5}
+        - {x: 6, y: 1.5}
+        - {x: 6, y: 3.5}
+        - {x: 5, y: 3.5}
+        - {x: 5, y: 5.5}
+        - {x: 4, y: 5.5}
+        - {x: 4, y: 6.5}
+        - {x: 3, y: 6.5}
+        - {x: 3, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd10ad07de7f92140963d30876a0f733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_10
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 150
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff24ddb6ce4055e4fbe90cfd8e0a95cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_11
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 150
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edd1e526acf809478062b8a1c401cb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_12
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 150
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842e540a8c241d447bba4479feebc738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 150
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b2af88094f99a49bacdd3f8a514008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_14
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 150
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e8bfcd41e76014391457a0de481243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_15
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 150
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dc6182e3d7cb34a85cca703bad121c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_16
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 150
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccb83ee5ee59bc4c9d4edfa29b9d56f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_17
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 150
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63bb08dad6cc014a9db172979975a32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 116
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 11.5}
+        - {x: 5, y: 10.5}
+        - {x: 3, y: 10.5}
+        - {x: 3, y: 9.5}
+        - {x: 4, y: 9.5}
+        - {x: 4, y: 8.5}
+        - {x: 2, y: 8.5}
+        - {x: 2, y: 7.5}
+        - {x: 3, y: 7.5}
+        - {x: 3, y: 6.5}
+        - {x: 1, y: 6.5}
+        - {x: 1, y: 5.5}
+        - {x: 2, y: 5.5}
+        - {x: 2, y: 4.5}
+        - {x: 3, y: 4.5}
+        - {x: 3, y: 3.5}
+        - {x: 1, y: 3.5}
+        - {x: 1, y: -1.5}
+        - {x: -1, y: -1.5}
+        - {x: -1, y: 3.5}
+        - {x: -3, y: 3.5}
+        - {x: -3, y: 4.5}
+        - {x: -2, y: 4.5}
+        - {x: -2, y: 5.5}
+        - {x: -1, y: 5.5}
+        - {x: -1, y: 6.5}
+        - {x: -3, y: 6.5}
+        - {x: -3, y: 7.5}
+        - {x: -2, y: 7.5}
+        - {x: -2, y: 8.5}
+        - {x: -4, y: 8.5}
+        - {x: -4, y: 9.5}
+        - {x: -3, y: 9.5}
+        - {x: -3, y: 10.5}
+        - {x: -5, y: 10.5}
+        - {x: -5, y: 11.5}
+        - {x: -6, y: 11.5}
+        - {x: -6, y: 10.5}
+        - {x: -7, y: 10.5}
+        - {x: -7, y: 7.5}
+        - {x: -8, y: 7.5}
+        - {x: -8, y: 1.5}
+        - {x: -7, y: 1.5}
+        - {x: -7, y: -0.5}
+        - {x: -6, y: -0.5}
+        - {x: -6, y: -1.5}
+        - {x: -5, y: -1.5}
+        - {x: -5, y: -2.5}
+        - {x: -3, y: -2.5}
+        - {x: -3, y: -3.5}
+        - {x: -1, y: -3.5}
+        - {x: -1, y: -8.5}
+        - {x: -2, y: -8.5}
+        - {x: -2, y: -6.5}
+        - {x: -3, y: -6.5}
+        - {x: -3, y: -5.5}
+        - {x: -4, y: -5.5}
+        - {x: -4, y: -4.5}
+        - {x: -6, y: -4.5}
+        - {x: -6, y: -3.5}
+        - {x: -8, y: -3.5}
+        - {x: -8, y: -5.5}
+        - {x: -7, y: -5.5}
+        - {x: -7, y: -7.5}
+        - {x: -6, y: -7.5}
+        - {x: -6, y: -9.5}
+        - {x: -5, y: -9.5}
+        - {x: -5, y: -10.5}
+        - {x: -2, y: -10.5}
+        - {x: -2, y: -11.5}
+        - {x: 2, y: -11.5}
+        - {x: 2, y: -10.5}
+        - {x: 5, y: -10.5}
+        - {x: 5, y: -9.5}
+        - {x: 6, y: -9.5}
+        - {x: 6, y: -7.5}
+        - {x: 7, y: -7.5}
+        - {x: 7, y: -5.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: -3.5}
+        - {x: 6, y: -3.5}
+        - {x: 6, y: -4.5}
+        - {x: 4, y: -4.5}
+        - {x: 4, y: -5.5}
+        - {x: 3, y: -5.5}
+        - {x: 3, y: -6.5}
+        - {x: 2, y: -6.5}
+        - {x: 2, y: -8.5}
+        - {x: 1, y: -8.5}
+        - {x: 1, y: -3.5}
+        - {x: 3, y: -3.5}
+        - {x: 3, y: -2.5}
+        - {x: 5, y: -2.5}
+        - {x: 5, y: -1.5}
+        - {x: 6, y: -1.5}
+        - {x: 6, y: -0.5}
+        - {x: 7, y: -0.5}
+        - {x: 7, y: 1.5}
+        - {x: 8, y: 1.5}
+        - {x: 8, y: 7.5}
+        - {x: 7, y: 7.5}
+        - {x: 7, y: 10.5}
+        - {x: 6, y: 10.5}
+        - {x: 6, y: 11.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb594a279bd5544391776eb4a6272cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_19
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 115
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: -4}
+        - {x: -1, y: -4}
+        - {x: -1, y: 12}
+        - {x: -2, y: 12}
+        - {x: -2, y: 11}
+        - {x: -3, y: 11}
+        - {x: -3, y: 10}
+        - {x: -4, y: 10}
+        - {x: -4, y: 8}
+        - {x: -5, y: 8}
+        - {x: -5, y: 6}
+        - {x: -6, y: 6}
+        - {x: -6, y: 0}
+        - {x: -5, y: 0}
+        - {x: -5, y: -2}
+        - {x: -4, y: -2}
+        - {x: -4, y: -3}
+        - {x: -2, y: -3}
+        - {x: -2, y: -4}
+        - {x: -1, y: -4}
+        - {x: -1, y: -9}
+        - {x: -2, y: -9}
+        - {x: -2, y: -7}
+        - {x: -3, y: -7}
+        - {x: -3, y: -6}
+        - {x: -4, y: -6}
+        - {x: -4, y: -5}
+        - {x: -6, y: -5}
+        - {x: -6, y: -4}
+        - {x: -8, y: -4}
+        - {x: -8, y: -6}
+        - {x: -7, y: -6}
+        - {x: -7, y: -8}
+        - {x: -6, y: -8}
+        - {x: -6, y: -10}
+        - {x: -5, y: -10}
+        - {x: -5, y: -11}
+        - {x: -2, y: -11}
+        - {x: -2, y: -12}
+        - {x: 2, y: -12}
+        - {x: 2, y: -11}
+        - {x: 5, y: -11}
+        - {x: 5, y: -10}
+        - {x: 6, y: -10}
+        - {x: 6, y: -8}
+        - {x: 7, y: -8}
+        - {x: 7, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: -4}
+        - {x: 6, y: -4}
+        - {x: 6, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -6}
+        - {x: 3, y: -6}
+        - {x: 3, y: -7}
+        - {x: 2, y: -7}
+        - {x: 2, y: -9}
+        - {x: 1, y: -9}
+        - {x: 1, y: -4}
+        - {x: 2, y: -4}
+        - {x: 2, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: -2}
+        - {x: 5, y: -2}
+        - {x: 5, y: 0}
+        - {x: 6, y: 0}
+        - {x: 6, y: 6}
+        - {x: 5, y: 6}
+        - {x: 5, y: 8}
+        - {x: 4, y: 8}
+        - {x: 4, y: 10}
+        - {x: 3, y: 10}
+        - {x: 3, y: 11}
+        - {x: 2, y: 11}
+        - {x: 2, y: 12}
+        - {x: 1, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d167c3e76b9ff54486dbd7d7f60cf83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 115
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158bff9c005789f41bec1308528b5133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_21
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 115
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0156d398889de74409dbb5d2d8170d96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_22
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 115
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef758035d6c03464985f01f77a11427f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_23
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8eeeb6a41e1fb44384e5b6c80d8d129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_24
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 116
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f13fbb316d69c04dbdf328ea0ca8c42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_25
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 116
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6196b9efdfb4de41b544dfe4dcb0430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 118
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5350e7459d09bd4f9ade8b100953edc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_27
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 118
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d196699065bca4e8168000fe539527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_28
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 118
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11509ef03dd7fa44d9adca551f4e0db0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_29
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 118
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de34a53de6c3094eb55b26bc6a6c167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_30
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 77
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89eca052acd2b0b4ab64ebdb7b540c97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_31
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 95
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804d845ee5d27024ba6adde4d900f6cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_32
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 77
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06eeaaa67a6de38469faf98a14a9d805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_33
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 80
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d340b27a661e0a34bb4cbbffd6593954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_34
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 87
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d4e79144ce76b45ba1ee429e20c42d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_35
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 89
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce78448036b7d648b63eae02673dd1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_36
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 90
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade3c0f052cbbf046a4b1e0b5210f57e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_37
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 89
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc01da6ef29220469e577b5ebb25d5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_38
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 90
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2db544d0413d9d4ab68f795f43a5c9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_39
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 89
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d347885d591eeaf43bc0c27907564074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_40
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 89
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50751e9343d7eda429bcf32a7d2809aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_41
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 9
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ff995d03f7904499f278eab32ef4c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_42
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 8
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0a22b002d649c4c98a8dfcd35f7a30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_43
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 9
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df3b8c66ceddf140bc1d5a2c9b09e0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_44
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 9
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622fb07e904635644948a9aceb476937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_45
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 48
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235d3879b57dafe48b8545b92c7b8c41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_46
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 49
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1ef7a8b66086c4b88a5d35347b57ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_47
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 50
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302e8c1280ea64640896a81b6e6bc526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_48
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 50
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d63c226f36b2624eba133978f80086d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_49
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 25
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87faa2c8ebd98eb40bbd193aaf431704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_50
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 25
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bf27a9296aa6241a1bbce4a622490f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_51
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 27
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434f6b838eebb9f4ab07fde58057ad46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_52
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 31
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2e793db7a390d43b99d5589a789315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_53
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 28
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479301e903ae82b4f94062b979c6d666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_54
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 30
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e37a1e8894960419e0b2f5c082b5dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_55
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 11
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047ffac7e5c56414ca17442bef5c103b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_56
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 12
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753cf09120c419346929d3076a8b115f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMBenemies_57
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a981d08f0a6ee9b4d8e46995ffab8fb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c1b5a8fe27f5ad14b8d4b5bc547f07c6
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
