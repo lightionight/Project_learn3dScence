@@ -135,6 +135,7 @@
     <Compile Include="Assets\Scripts\Level_05\Enemy_SixStar.cs" />
     <Compile Include="Assets\Scripts\Level_05\Enemy_type_01.cs" />
     <Compile Include="Assets\Scripts\Level_05\Enemy_type_02.cs" />
+    <Compile Include="Assets\Scripts\Level_05\Enemy_type_03.cs" />
     <Compile Include="Assets\Scripts\Level_05\MarioContorller.cs" />
     <Compile Include="Assets\Scripts\Level_05\PannelController.cs" />
     <Compile Include="Assets\Scripts\Level_06\MouseToPosition.cs" />
@@ -195,13 +196,13 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/UnityProject/Project_learn3dScence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/light/source/repos/lightionight/Project_learn3dScence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/UnityProject/Project_learn3dScence/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/light/source/repos/lightionight/Project_learn3dScence/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/UnityProject/Project_learn3dScence/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/light/source/repos/lightionight/Project_learn3dScence/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
