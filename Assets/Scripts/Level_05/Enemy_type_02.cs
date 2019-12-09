@@ -3,8 +3,8 @@
 public class Enemy_type_02 : MonoBehaviour
 {
     private EnemyControllerBase enemyControllerBase;
-    private string rigi2dStatu = "default";
-    private string hitStatu = "default";
+    private string rigi2dStatu = null; //碰撞体的状态
+    private string hitStatu = null;    //被攻击的状态
     void Start()
     {
         enemyControllerBase = new EnemyControllerBase();
@@ -14,20 +14,10 @@ public class Enemy_type_02 : MonoBehaviour
     void Update()
     {
         enemyControllerBase.Enemy_type_02(gameObject, rigi2dStatu, hitStatu);
+        rigi2dStatu = hitStatu = null;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //switch (collision.gameObject.tag)
-        //{
-        //    case "Ground":
-        //        rigi2dStatu = "OnGround";
-        //        break;
-        //    case "Bullet":
-        //        hitStatu = "hitBullet";
-        //        break;
-
-                
-        //}
         if (collision.gameObject.tag == "Ground")
             rigi2dStatu = "OnGround";
         if (collision.gameObject.tag == "Bullet")

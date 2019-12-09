@@ -3,45 +3,21 @@
 public class MarioContorller : MonoBehaviour
 {
     private CharacterControllerBase characterControllerBase;
-    private bool isGround = false;
-    public GameObject bullet;
-    
-
+    public  GameObject              weapon;
     // Use this for initialization
     void Start()
     {
-        characterControllerBase = gameObject.AddComponent<CharacterControllerBase>();
+        characterControllerBase = new CharacterControllerBase();
         
     }
     // Update is called once per frame
     void Update()
     {
-        
-        characterControllerBase._base2dController(gameObject, isGround, bullet);
-        if (isGround)
-        {
-            if (gameObject.GetComponent<Rigidbody2D>().velocity.y != 0)
-            {
-                isGround = false;
-            }
-            else
-            {
-                isGround = true;
-            }
-        }
-        //Debug.Log(gameObject.GetComponent<Animator>().GetBool("_IsJump"));
+        characterControllerBase._base2dController(gameObject, weapon);
     }
-    void OnCollisionEnter2D(Collision2D collision2D)
+    private void OnDrawGizmos()
     {
-        //Debug.Log(collision2D.gameObject.ToString());
-        if (collision2D.gameObject.tag == "Ground")
-        {
-            //Debug.Log("Touch Ground");
-            isGround = true;
-        }
+        Gizmos.DrawWireCube(transform.position + transform.up * 0.5f, new Vector3(1, 1, 1));
     }
-    void Fire()
-    {
-        
-    }
+
 }

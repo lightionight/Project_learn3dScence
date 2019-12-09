@@ -1,22 +1,20 @@
 ﻿using UnityEngine;
 
-public class EnemyControllerBase
+class EnemyControllerBase
 {
     /*******Enemy_type_02********/
-    private Animator enemyType02_Animator;
-    private Rigidbody2D enemyType02_Rigidbody2D;
     private float lastTime = Time.time;
     private float moveTime = 5f;
     private float moveSpeed = 1f;
-    private bool flipX = false;
+    private bool EnemyType02_flipX = false;
 
     /*********Enemy_type_03********/
     
     //Enemy Type 02
     public void Enemy_type_02(GameObject gameObject,string rigi2dStatu, string hitStatu)
     {
-        enemyType02_Animator = gameObject.GetComponent<Animator>();
-        enemyType02_Rigidbody2D = gameObject.GetComponent<Rigidbody2D>();
+        Animator enemyType02_Animator = gameObject.GetComponent<Animator>();
+        Rigidbody2D enemyType02_Rigidbody2D = gameObject.GetComponent<Rigidbody2D>();
         //行走判断
         if(rigi2dStatu == "OnGround")
         {
@@ -28,8 +26,8 @@ public class EnemyControllerBase
                 //Vector3 theScale = gameObject.transform.localScale;
                 //theScale.x *= -1;
                 //gameObject.transform.localScale = theScale;
-                flipX = !flipX;
-                gameObject.GetComponent<SpriteRenderer>().flipX = flipX;
+                EnemyType02_flipX = !EnemyType02_flipX;
+                gameObject.GetComponent<SpriteRenderer>().flipX = EnemyType02_flipX;
                 if(hitStatu == "hitBullet")
                 {
                     enemyType02_Animator.SetBool("_IsBullet", true);

@@ -8,14 +8,14 @@ public class CharacterMove : MonoBehaviour
 
     void Start()
     {
-        characterControllerBase = gameObject.AddComponent<CharacterControllerBase>();
+        characterControllerBase = new CharacterControllerBase();
     }
     void Update()
     {
         if(isJump)
         {
             
-            characterControllerBase._base2dController(gameObject, isJump);
+            characterControllerBase._base2dController(gameObject, isJump, isJump);
             if(gameObject.GetComponent<Rigidbody2D>().velocity.y != 0)
             {
                 isJump = false;
