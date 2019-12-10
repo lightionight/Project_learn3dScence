@@ -2,18 +2,18 @@
 
 public class MarioContorller : MonoBehaviour
 {
-    private CharacterControllerBase characterControllerBase;
+    private CharacterControllerClass characterControllerClass;
     public  GameObject              weapon;
     // Use this for initialization
     void Start()
     {
-        characterControllerBase = new CharacterControllerBase();
+        characterControllerClass = new CharacterControllerClass();
         
     }
     // Update is called once per frame
     void Update()
     {
-        characterControllerBase._base2dController(gameObject, weapon);
+        characterControllerClass._base2dController(gameObject, weapon);
     }
     private void OnDrawGizmos()
     {

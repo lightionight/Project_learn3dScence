@@ -4,18 +4,18 @@ using System.Collections;
 public class CharacterMove : MonoBehaviour
 {
     public bool isJump = false;
-    CharacterControllerBase characterControllerBase;
+    CharacterControllerClass characterControllerBaseClass;
 
     void Start()
     {
-        characterControllerBase = new CharacterControllerBase();
+        characterControllerBaseClass = new CharacterControllerClass();
     }
     void Update()
     {
         if(isJump)
         {
             
-            characterControllerBase._base2dController(gameObject, isJump, isJump);
+            characterControllerBaseClass._base2dController(gameObject, isJump, isJump);
             if(gameObject.GetComponent<Rigidbody2D>().velocity.y != 0)
             {
                 isJump = false;

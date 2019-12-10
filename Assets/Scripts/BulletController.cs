@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
+using System.Collections;
 
-public class Bullet_Fire : MonoBehaviour
+public class BulletController : MonoBehaviour
 {
     private float bullet_speed = 2f;
     Animator bulletAnimator;
     private bool hitEnemy = false;
+
     private void Start()
     {
         bulletAnimator = gameObject.GetComponent<Animator>();
@@ -22,7 +24,7 @@ public class Bullet_Fire : MonoBehaviour
     {
         if (collision.tag == "Ground")
         {
-            
+
             Destroy(gameObject);
         }
         Debug.Log(collision.tag.ToString());

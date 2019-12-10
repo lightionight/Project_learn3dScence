@@ -1,15 +1,12 @@
 ﻿using System;
 using UnityEngine;
 /*********************角色基础操控方式类****************************/
-class CharacterControllerBase
+    class CharacterControllerClass
 {
-    //武器属性
-    float weaponFireInterval = 1f;
-    float weaponPressBeforeTime = Time.time;
-    //用户输入接收
     private float animatorNormalSpeed = 0.1f;
     private float animatorFastSpeed = 0.25f;
-    private Vector2 moveSpeed = new Vector2(3f, 8f);//设置跳跃及移动放大倍数
+    //设置跳跃及移动放大倍数
+    private Vector2 moveSpeed = new Vector2(3f, 8f);
     private string rayCheckResult;
 
     //3D Parameter
@@ -20,11 +17,15 @@ class CharacterControllerBase
     }
     public void _base2dController(GameObject player, GameObject weapon)
     {
-        Animator playerAnimator             = player.GetComponent<Animator>();//获取2d玩家角色的动画控件
-        Rigidbody2D playerRigi2d            = player.GetComponent<Rigidbody2D>();//获取2d玩家的Rigi控件
-        SpriteRenderer playerSpriteRenderer = player.GetComponent<SpriteRenderer>();//获取操控角色的sprite渲染控件
-        float jump               = Input.GetAxis("Jump");                    //获取玩家输入控制
-        float leftRight          = Input.GetAxis("Horizontal");              //获取玩家跳跃输入
+        //获取2d玩家角色的动画控件
+        Animator playerAnimator             = player.GetComponent<Animator>();
+        //获取2d玩家的Rigi控件
+        Rigidbody2D playerRigi2d            = player.GetComponent<Rigidbody2D>();
+        //获取操控角色的sprite渲染控件
+        SpriteRenderer playerSpriteRenderer = player.GetComponent<SpriteRenderer>();
+        //获取玩家输入控制
+        float jump               = Input.GetAxis("Jump");                    
+        float leftRight          = Input.GetAxis("Horizontal");
         rayCheckResult = null;
         RayCheck(player);
         if (rayCheckResult == "CanJump")
@@ -70,39 +71,9 @@ class CharacterControllerBase
 
         }
 
-        
-        Shoot(weapon);
-
-        
     }
 
     //控制武器释放
-    private void Shoot(GameObject weapon)
-    {
-        //shootTimer += Time.deltaTime;
-        //if(shootTimer > 3f)
-        //{
-        //    shootTimer = 3f;
-        //}
-        //Debug.Log($"before: {shootTimer}");
-        //if(shootTimer > shootTimerInterval)
-        //{
-        //shootTimer -= shootTimerInterval;
-        //Debug.Log($"after: {shootTimer}")
-        //};
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            if(Time.time - weaponPressBeforeTime >=  weaponFireInterval)
-            {
-                weaponPressBeforeTime = Time.time;
-                Vector3 bornPoint = GameObject.Find("weapon_BornPoint").GetComponent<Transform>().position;
-                UnityEngine.Object.Instantiate(weapon, bornPoint, Quaternion.identity, GameObject.Find("/Canvas/Level_02/Grid/weaponFather").GetComponent<Transform>()); //有待重新编写game object 运行生成的方法
-
-            }
-        }
-        
-        
-    }
 
     //射线检测玩家周围环境
     public void RayCheck(GameObject player)
